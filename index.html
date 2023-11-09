@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a onclick="alertFunction()" class="alert">click</a>
+
+    <div class="underline"></div>
+
+    <h1>Mobile Phone Lookup</h1>
+    <div class="mobile">
+        <div class="image"><img src="./Images/download.jfif" onclick="purchase()"></div>
+        <div class="image"><img src="./Images/images (1).jfif" class="image1" onclick="purchase()"></div>
+        <div class="image"><img src="./Images/images.jfif" onclick="purchase()"></div>
+        <div class="image"><img src="./Images/images (2).jfif" onclick="purchase()"></div>
+    </div>
+
+    <div class="underline"></div>
+
+    <div class="student">
+        <h2>Index Name class</h2>
+        <div class="student1" id="delete">
+            <div class="inner inner_div1">
+                <p>1: Jhone 10</p>
+                <button onclick="deleteLine()">Delete</button>
+            </div>
+        </div>
+        <div class="student2">
+            <div class="inner inner_div2">
+                <p>1: Doe 9</p>
+                <button>Delete</button>
+            </div>
+        </div>
+        <div class="student3">
+            <div class="inner inner_div3">
+                <p>1: Mark 10</p>
+                <button>Delete</button>
+            </div>
+        </div>
+        <div class="student4">
+            <div class="inner inner_div4">
+                <p>1: James 8</p>
+                <button>Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="underline"></div>
+
+    <div class="spider">
+        <img src="./Images/spider1.jfif" alt="" onmouseover="src='./Images/venom.jfif'"
+            onmouseout="src='./Images/spider1.jfif'" class="venomAndspider">
+    </div>
+
+    <div class="underline"></div>
+
+    <h1>Counter:</h1>
+    <p id="counter">0</p>
+    <button id="increaseButton">Increase</button>
+    <button id="decreaseButton">Decrease</button>
+
+    <script src="App.js"></script>
+</body>
+
+</html>

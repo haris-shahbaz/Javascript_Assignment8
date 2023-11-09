@@ -1,0 +1,50 @@
+.alert {
+    margin-left: 50%;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    font-size: 25px;
+}
+
+.alert:hover {
+    cursor: pointer;
+} 
+
+.underline {
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 5px;
+}
+
+.mobile {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image {
+    border: 3px solid black;
+}
+
+.image1 {
+    height: 225px;
+}
+
+.inner {
+    margin-top: 10px;
+}
+
+.inner p {
+    display: inline;
+}
+
+.spider {
+    display: flex;
+    justify-content: center;
+}
+
+.venomAndspider {
+    padding: 15px;
+    height: 400px;
+    width: 30%;
+}
